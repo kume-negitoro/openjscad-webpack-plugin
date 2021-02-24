@@ -1,7 +1,7 @@
 const fs = require('fs').promises
 const path = require('path')
 const { version } = require('@jscad/cli/package.json')
-const generateOutputData = require('@jscad/cli/generateOutputData')
+const generateOutputData = require('@jscad/cli/src/generateOutputData')
 
 class OpenJSCADWebpackPlugin {
     constructor({

@@ -10,7 +10,7 @@
   "author": "kume-negitoro",
   "license": "MIT",
   "dependencies": {
-    "@jscad/cli": "^1.10.0"
+    "@jscad/cli": "2.0.0-alpha.13"
   },
   "devDependencies": {
     "@types/node": "^14.14.25"
