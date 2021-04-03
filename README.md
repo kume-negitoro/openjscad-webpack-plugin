@@ -76,7 +76,7 @@ module.exports = {
 
 | Name | Type | Default | Description |
 | :--: | :--: | :--: | :--: |
-| **`format`** | `FormatType` | `FormatType[]` | `'stl'` | Output format type. For example: 'amf', 'dxf', 'json', 'stl', 'svg', 'x3d'. |
+| **`format`** | `FormatType` \| `FormatType[]` | `'stl'` | Output format type. For example: 'amf', 'dxf', 'json', 'stl', 'svg', 'x3d'. |
 
 ## Why this plugin
 
