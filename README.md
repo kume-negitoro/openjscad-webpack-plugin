@@ -34,11 +34,14 @@ A basic structure is:
 **src/mymodel.js**
 
 ```js
-const { primitives3d } = require('@jscad/csg/api')
-const { cube } = primitives3d
+const { primitives } = require('@jscad/modeling')
+const { cuboid } = primitives
 
 const main = () => {
-    return cube(10)
+    return cuboid({
+        size: [10, 10, 10],
+        center: [0, 0, 0],
+    })
 }
 
 module.exports = { main }
