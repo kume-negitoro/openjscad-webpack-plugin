@@ -8,11 +8,11 @@ Issues and RP are welcome! ;)
 
 ## Install
 
-`npm i -D kume-negitoro/openjscad-webpack-plugin`
+`npm i -D @jscad/cli kume-negitoro/openjscad-webpack-plugin`
 
 or
 
-`yarn add -D kume-negitoro/openjscad-webpack-plugin`
+`yarn add -D @jscad/cli kume-negitoro/openjscad-webpack-plugin`
 
 ## Usage
 
