@@ -9,10 +9,11 @@
   "keywords": [],
   "author": "kume-negitoro",
   "license": "MIT",
-  "dependencies": {
-    "@jscad/cli": "2.0.0-alpha.13"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^14.14.25"
+  },
+  "peerDependencies": {
+    "@jscad/cli": "^2.0.0-alpha.6"
   }
 }

@@ -2,263 +2,210 @@
 # yarn lockfile v1
 
 
-"@jscad/amf-deserializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/amf-deserializer/-/amf-deserializer-2.0.0-alpha.10.tgz#90fccee9972b233f3bd90ea2bcd566153d10318b"
-  integrity sha512-hpcX+p994CDTI0zM2t5awTXcFDrotUlrQrJOWGJHwlCBEmugSGrqXjUB/t9Xriyg2cCoPt9ap/lZAu5DXsB7/Q==
+"@jscad/3mf-serializer@2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@jscad/3mf-serializer/-/3mf-serializer-2.1.6.tgz#7294a25b6335b9c93cc86d4ab656b055d9dfd22a"
+  integrity sha512-FymYUelAFjHkAf2YAshDPHh/UfH5bD0+9DBeEsGyP1I4gkJQHxE8rIi7vRuK+h1RC/7cpixM0UCXgjBDdMJCNA==
   dependencies:
-    "@jscad/modeling" "2.0.0-alpha.10"
-    sax "1.2.4"
-
-"@jscad/amf-serializer@2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@jscad/amf-serializer/-/amf-serializer-2.0.0-alpha.11.tgz#133d5695737ec3d36ebb8b36d1c6a9fe54f73554"
-  integrity sha512-HmHi20cA4rTsuL9bSxcJgLXWcIvwP3BgF+5p+7aynxMh+uOC1Gndwiac9v016Myvm2iEN9iL49CCtqiNOEPYCg==
-  dependencies:
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
+    fflate "0.7.3"
     onml "1.2.0"
 
-"@jscad/array-utils@2.0.0-alpha.4":
-  version "2.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@jscad/array-utils/-/array-utils-2.0.0-alpha.4.tgz#33d3eab605554413a32a654e77f63649a9c2bb20"
-  integrity sha512-hv4IO/QnDuovDljHOAxS5RpViDrlrJThgRIH6lWnRXN+drUfoVQbcZFXeShg0X4+mN8bBTV5PMPqRTRVlS7aDg==
-
-"@jscad/cli@2.0.0-alpha.13":
-  version "2.0.0-alpha.13"
-  resolved "https://registry.yarnpkg.com/@jscad/cli/-/cli-2.0.0-alpha.13.tgz#b0c606f686614b6b3ede36652b229f2a823eda6e"
-  integrity sha512-C9beLPifepWCmk/Hi/NrNe4XnDDPhGyPn8FNPyMdZ1+3s9kerxjBZP2+NAyCDlih0LWAk+0thvYKrirbtuHyOA==
+"@jscad/amf-deserializer@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@jscad/amf-deserializer/-/amf-deserializer-2.3.2.tgz#7dc6ea0c46c61f491f31b9bb0f5806b3319ea676"
+  integrity sha512-tU7I79EhbiwY2ij5lYU9B2VXWYgoulAugTvw4Yzm4Gc3dnmdbjx7Lhhy/FUAQlpG5UYvGAMi5s4L9FoHwFNW5w==
   dependencies:
-    "@jscad/core" "2.0.0-alpha.13"
-    "@jscad/io" "2.0.0-alpha.12"
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/modeling" "2.10.0"
+    saxes "5.0.1"
 
-"@jscad/core@2.0.0-alpha.13":
-  version "2.0.0-alpha.13"
-  resolved "https://registry.yarnpkg.com/@jscad/core/-/core-2.0.0-alpha.13.tgz#1309937bb7def603390dbc18fa45d286ed052341"
-  integrity sha512-NzOdk+kYzYi9XL0dMtMuT+cx/pw3fYqtJx0V6NAoCAwmJrm8efvq1Ddeal5lYXVN8K/zelbKs0lsYt3+57KvRQ==
+"@jscad/amf-serializer@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@jscad/amf-serializer/-/amf-serializer-2.1.12.tgz#d2d79aa59f7acbba0c396ff9b66cfb34c533dfb8"
+  integrity sha512-hqQmanw+7tCUzC1f0/J2FZIgort4nbeLJ4kW3iBVsMrvEVLatlzTwvjtiDXWHhQ08Trv1wwGEC1ER8Z2+xV24Q==
   dependencies:
-    "@jscad/array-utils" "2.0.0-alpha.4"
-    "@jscad/io" "2.0.0-alpha.12"
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    "@jscad/vtree" "2.0.0-alpha.11"
-    "@most/create" "2.0.1"
-    es2015-i18n-tag "1.6.1"
-    is-electron "2.2.0"
-    morphdom "2.6.1"
-    most "1.8.0"
-    most-proxy "3.3.0"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
+    onml "1.3.0"
+
+"@jscad/array-utils@2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@jscad/array-utils/-/array-utils-2.1.4.tgz#05e93c7c0ccaab8fa5e81e3ec685aab9c41e7075"
+  integrity sha512-c31r4zSKsE+4Xfwk2V8monDA0hx5G89QGzaakWVUvuGNowYS9WSsYCwHiTIXodjR+HEnDu4okQ7k/whmP0Ne2g==
+
+"@jscad/cli@^2.0.0-alpha.6":
+  version "2.2.24"
+  resolved "https://registry.yarnpkg.com/@jscad/cli/-/cli-2.2.24.tgz#ad31a62abdb128781d886c3c9a7a567c75007419"
+  integrity sha512-IWTPKUGJLDjvxqOOa9Dhe1BVFHttRKPgGvmBhFJ9wea1r6SJCjmXbZDGkDsdxR72I8UBOJ8jEcS1KKEDVIvxHw==
+  dependencies:
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/core" "2.6.4"
+    "@jscad/io" "2.4.3"
+    "@jscad/modeling" "2.10.0"
+
+"@jscad/core@2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@jscad/core/-/core-2.6.4.tgz#6fcccf65964d4fbe3e8e45b0b7f2262f42780e0e"
+  integrity sha512-WpyllwnohTOoP2H1/nUrEMjfIxs3zjK9PJQkz6XyrbXjW08Ko+mfTW3zvsPayn5kr5IuFMgSBb0fXuPBVavyBw==
+  dependencies:
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/io" "2.4.3"
+    "@jscad/io-utils" "2.0.22"
+    "@jscad/modeling" "2.10.0"
+    json5 "2.2.0"
     strip-bom "4.0.0"
-    webworkify "1.5.0"
 
-"@jscad/dxf-deserializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/dxf-deserializer/-/dxf-deserializer-2.0.0-alpha.10.tgz#93fb4d446d24537abac48d854a73334dab0e1b4d"
-  integrity sha512-NU0HYYZPeKwL1DuJLrSx1VgbPOGyRjEXWGVyNFW/btJekWDYZRw8nCoX+1XwumicMtkA/aNO6lH4ZuUHGVKbJw==
+"@jscad/dxf-deserializer@2.3.19":
+  version "2.3.19"
+  resolved "https://registry.yarnpkg.com/@jscad/dxf-deserializer/-/dxf-deserializer-2.3.19.tgz#1c8ea2ea7b22038b1ff5d1f9444c6c0a8a1a8fe5"
+  integrity sha512-l0BTWLOqiHz5Qp2v+uw5VIxPDr28BQHXEwfxBT2lrh4soeUnLhNpufEn/T3omzvwKygdS7QjiPvedwAJ3PfnMg==
   dependencies:
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/dxf-serializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/dxf-serializer/-/dxf-serializer-2.0.0-alpha.10.tgz#e0e137957bcfe31178b60f338bd225b23e6f7801"
-  integrity sha512-yyPQc9A2NQ7fmiTDVkgsJDc76ipAUgCS3WH8xPmwzwjWffhQTfx4MV1B+/q12lsRBF+YJqDlU34VUhG2fFMwTw==
+"@jscad/dxf-serializer@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@jscad/dxf-serializer/-/dxf-serializer-2.1.12.tgz#3fd77e0348ab58899fbee508179ce50cbd141476"
+  integrity sha512-6BXl45ezGQX6b7LoKVC7t4YAVcjRO6YFxRBikNw3eFAl4iqjtPjY8LwgJ0ylqqt5TwqmszEuVE0jtrVKc87HKw==
   dependencies:
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/io-utils@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/io-utils/-/io-utils-2.0.0-alpha.10.tgz#81c58f3fbe09dc8f9d990e47115ba913b0c21335"
-  integrity sha512-ro54TWJwQpVhzcfWNl6S9BxCPbngtGZb1QpwIFaeEla6855XN8UNkL279mATayldIzAynsgiJrOZ7rTuBgn+fg==
+"@jscad/io-utils@2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@jscad/io-utils/-/io-utils-2.0.22.tgz#d45ecba2942cad4289c88867d8605d62327d0a2b"
+  integrity sha512-MF98t0/XjqkqncQuU3iZcaec8pjZmiytX2Q4xmB9nme0M8RCbrgRCxI6XgSeintWXTyXRES6Hd2M1GcRFOPEvA==
 
-"@jscad/io@2.0.0-alpha.12":
-  version "2.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@jscad/io/-/io-2.0.0-alpha.12.tgz#20ebdbad8ef15cd2a17f748233ca7def7aa0d3cf"
-  integrity sha512-jvsmiXT3fbafYKmU8iWP4WjTsCAc9ZCZPRoowdh2mbKcgDUOXxPgSdlg52wKyb3BM9KAe1n5jR2SuBPuF4XGrA==
+"@jscad/io@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@jscad/io/-/io-2.4.3.tgz#b17a7e784112bd0981e0a9d623a42c4202080f1a"
+  integrity sha512-fo4MiMWK3P9H/fPd9pJwTeVHS4v2B7+4RrfZKfB5X7+Npq4X4mjk2cXo2smHGcB75OCZ83Ng7BApNNp10YYg6A==
   dependencies:
-    "@jscad/amf-deserializer" "2.0.0-alpha.10"
-    "@jscad/amf-serializer" "2.0.0-alpha.11"
-    "@jscad/array-utils" "2.0.0-alpha.4"
-    "@jscad/dxf-deserializer" "2.0.0-alpha.10"
-    "@jscad/dxf-serializer" "2.0.0-alpha.10"
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/json-deserializer" "2.0.0-alpha.10"
-    "@jscad/json-serializer" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    "@jscad/obj-deserializer" "2.0.0-alpha.10"
-    "@jscad/stl-deserializer" "2.0.0-alpha.11"
-    "@jscad/stl-serializer" "2.0.0-alpha.10"
-    "@jscad/svg-deserializer" "2.0.0-alpha.10"
-    "@jscad/svg-serializer" "2.0.0-alpha.11"
-    "@jscad/x3d-serializer" "2.0.0-alpha.11"
+    "@jscad/3mf-serializer" "2.1.6"
+    "@jscad/amf-deserializer" "2.3.2"
+    "@jscad/amf-serializer" "2.1.12"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/dxf-deserializer" "2.3.19"
+    "@jscad/dxf-serializer" "2.1.12"
+    "@jscad/io-utils" "2.0.22"
+    "@jscad/json-deserializer" "2.0.23"
+    "@jscad/json-serializer" "2.0.22"
+    "@jscad/modeling" "2.10.0"
+    "@jscad/obj-deserializer" "2.0.22"
+    "@jscad/obj-serializer" "2.1.12"
+    "@jscad/stl-deserializer" "2.1.19"
+    "@jscad/stl-serializer" "2.1.12"
+    "@jscad/svg-deserializer" "2.5.3"
+    "@jscad/svg-serializer" "2.3.10"
+    "@jscad/x3d-deserializer" "2.2.2"
+    "@jscad/x3d-serializer" "2.4.2"
 
-"@jscad/json-deserializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/json-deserializer/-/json-deserializer-2.0.0-alpha.10.tgz#aaef0405f1a0c31b5daa404b962263db9e130a68"
-  integrity sha512-s/xbZF1lQwXAUwZfM3xsN4Di/H1uFYgUXnAmtpvaJDlEfL/hhGqZoWVyNwBLgNeLkB4RBnIVGOzm7Bc0swEd/Q==
+"@jscad/json-deserializer@2.0.23":
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/@jscad/json-deserializer/-/json-deserializer-2.0.23.tgz#e072a9f2674abd41f84968ff058175ff286f519f"
+  integrity sha512-LiBEYPt7jOPtbV9HO0/OxUR537Nx/cSamcBzWq1+FGx9HGO7OjEjZ5Vbf4uR8AlReVBSvAuorhwXGL1UoutbMA==
   dependencies:
-    "@jscad/array-utils" "2.0.0-alpha.4"
+    "@jscad/array-utils" "2.1.4"
 
-"@jscad/json-serializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/json-serializer/-/json-serializer-2.0.0-alpha.10.tgz#b09787a3a88a4d2f619bff44ef10d354c9ace5bf"
-  integrity sha512-oCaitI20y/sWKhkx5Dt0Dyony/26+M3OK/TE6uZQBjJI0OjbFiBWZp4e78Oy/d3P3+Jl86FD8v/hAhthwKdrdw==
+"@jscad/json-serializer@2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@jscad/json-serializer/-/json-serializer-2.0.22.tgz#2282f7ae8f3508edae929c2d264cf1e03daae617"
+  integrity sha512-Ca87Ffhdilx5UUOvNypYaZBCVKaizxcuL2LCQCY6kIJX8xX3DGFDMEZaDJIdYipASSQ2NWF3OM40IV1usHqanQ==
   dependencies:
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/modeling@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/modeling/-/modeling-2.0.0-alpha.10.tgz#c65f5f139c3b5300a38944d99c6ac3d985da471d"
-  integrity sha512-qqB63Yqw6F8Mg9eu0Dj/V5F5nqjFrOacmr5rLjs/0D2+6lw5hU0aj6hdyoWP/IN73f/2MplACsK5oikr+8BzCA==
+"@jscad/modeling@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@jscad/modeling/-/modeling-2.10.0.tgz#43645949c7edb21848fb2c9f27efb010038d7a66"
+  integrity sha512-TguexofFDURrcPkZ1qjixjgCftt+YJfuvum8T83gg8cRXNtANaBkkkgs1Y2Kh8e/DJeZzfpi0V5cGJV2IvfS6g==
 
-"@jscad/obj-deserializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/obj-deserializer/-/obj-deserializer-2.0.0-alpha.10.tgz#97dfc7163df636d88b383bff7e8700de3208d03a"
-  integrity sha512-xsZrWpn+/BRE1LVmBo6fe1whI5v4FzLPyRcoaFKLv23t0TeNNQzt5knDafqOx7w+uQ+3xh3yiB6yqubIk7Ps/A==
+"@jscad/obj-deserializer@2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@jscad/obj-deserializer/-/obj-deserializer-2.0.22.tgz#a5f954f0a7a60a3f0a60a274e2fb0fd5b45238e6"
+  integrity sha512-xQOy11qYVdVD0XzMf2HpGoe7qiwv7F3L5/K3G/fvkBKhcwOzfLt7ETb+LYZFuS7Od5PXfyMCO9igOEDK5k6Tdg==
   dependencies:
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/stl-deserializer@2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@jscad/stl-deserializer/-/stl-deserializer-2.0.0-alpha.11.tgz#4dd1a68665f6788e0647afa7dc8ad412616989ba"
-  integrity sha512-EtuVulECWb0OF2lTiA474PQ8HUsjOwoO2KIBIwWznX1Y7mh4xcafVOqvCNUzjGJKBngFd897O2DBpiyK+FjHug==
+"@jscad/obj-serializer@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@jscad/obj-serializer/-/obj-serializer-2.1.12.tgz#b71aa6c645427e3e90c5cbb28fcd48396f7b5013"
+  integrity sha512-awClr+3VA6IcXo8ox49rtkrL9aZbtNPMi26mGN9QdORExHa4WDW2rZtasyE9qmmkNBVCyD1TASFYXSsDHBoSZg==
   dependencies:
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/stl-serializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/stl-serializer/-/stl-serializer-2.0.0-alpha.10.tgz#173598202a906bb5d97fa6cc153843d4394de57a"
-  integrity sha512-E/zwZKIQjwybeB4geGe/J2sAoupBYp5L8WrrbrYwcTwWdRU4hxfg6jQ+NJr5K1+vzS7BjgdisEOHloz3DhNaCw==
+"@jscad/stl-deserializer@2.1.19":
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/@jscad/stl-deserializer/-/stl-deserializer-2.1.19.tgz#211270ffc8d45055e8cc40efdf11dcf42d4d1702"
+  integrity sha512-IpoGTc2lg1AMJD5QrMWF5TAV0JRF/mWlxhy9+qiqeA2hTj0Ysc5FGXh2AOwX1rX/Ylgae38+g6wf5Cqu4OzrSg==
   dependencies:
-    "@jscad/modeling" "2.0.0-alpha.10"
+    "@jscad/io-utils" "2.0.22"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/svg-deserializer@2.0.0-alpha.10":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@jscad/svg-deserializer/-/svg-deserializer-2.0.0-alpha.10.tgz#85bc06a9ca423dd7ef76631543f12aaff8e6f5b0"
-  integrity sha512-cLUzuBUIv+b+kWyolQj3BfZ8EA67zBZREV8sxWQiBhm976LdqFdA1hAV6s+aAaymLvfMFrjGtA+iN+DMfMKLsA==
+"@jscad/stl-serializer@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@jscad/stl-serializer/-/stl-serializer-2.1.12.tgz#d1fd83d7c68b526e299b328a8b09909ac596ea1c"
+  integrity sha512-1pQLsNR9+cx2/o3KnFSR2Nah5pRQW4xTIBdoVo8F4ZOuSWMqRWWE4jHgBsOkXvqsjzLF1rGWMRanPe7pMVBYjA==
   dependencies:
-    "@jscad/array-utils" "2.0.0-alpha.4"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    sax "1.2.4"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
 
-"@jscad/svg-serializer@2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@jscad/svg-serializer/-/svg-serializer-2.0.0-alpha.11.tgz#69ebad818d14bf44981218d0ef9fe51da592e634"
-  integrity sha512-qbm4KTwnhIXDurEdYWLDlzBMOawrXFLHQQlnqVnGR4N75Dirb08LdDhhOMbRu/3FEv2Ge4NpQ52rQwW6wYfoTQ==
+"@jscad/svg-deserializer@2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@jscad/svg-deserializer/-/svg-deserializer-2.5.3.tgz#5f9c7de2eb497020277870897ba9fef9fce57bc6"
+  integrity sha512-r5MEVg2MDVXUBiQQ8T9NloJEN14FPa3HoL2wYQ4ewblcQ3WZUSErkqhTQ5ZHrEuiAkCGQmqKP0I2JlsA6lKQzQ==
   dependencies:
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    onml "1.2.0"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
+    saxes "5.0.1"
 
-"@jscad/vtree@2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@jscad/vtree/-/vtree-2.0.0-alpha.11.tgz#93cdd4e6d570d02190892327d2e61e9644607ae3"
-  integrity sha512-Zqpy/h8gV5IMhJtHjIdIEiviGjILJSuGKqsxgsmsYs9ieuQq2zWLcvdbIZ+4+j9ydOwK+Mxr22+LVIvxJ5OChQ==
+"@jscad/svg-serializer@2.3.10":
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/@jscad/svg-serializer/-/svg-serializer-2.3.10.tgz#8f8b526b694a91dfd279701cef1442c9642e09f7"
+  integrity sha512-35MWmpdQYT/RgWnBM4rtYKjZ2zIwNp2tH+Cz1n7bdwARTh4yd+gI5IH/LD/9lRVk1WDn/nD+EhTeYb4IHWnkgQ==
   dependencies:
-    "@jscad/array-utils" "2.0.0-alpha.4"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    object-hash "2.0.3"
+    "@jscad/modeling" "2.10.0"
+    onml "1.3.0"
 
-"@jscad/x3d-serializer@2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@jscad/x3d-serializer/-/x3d-serializer-2.0.0-alpha.11.tgz#fc1180b96c77f460518b5c84190a8d5ba163982b"
-  integrity sha512-MbGRXKDliPbzOgE4YduuIic78wU2oso43SLPyGtsPNFpYWOnfkWkEhg8ZVIKpqYyav27TK98lzoYO/cB34mCEg==
+"@jscad/x3d-deserializer@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@jscad/x3d-deserializer/-/x3d-deserializer-2.2.2.tgz#f86737d311fc8b14361973a2167cb070f032e3f8"
+  integrity sha512-ftMZPasuUx1mnGKuynyywcctvSi1x0N5UD/PmxEBsWagCSEHdqO9UDJl58r3+VsYcRdxbDtT7D+CAUDgdv9dzA==
   dependencies:
-    "@jscad/io-utils" "2.0.0-alpha.10"
-    "@jscad/modeling" "2.0.0-alpha.10"
-    onml "1.2.0"
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
+    saxes "5.0.1"
 
-"@most/create@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@most/create/-/create-2.0.1.tgz#29156589638fa4ed12620203c7a698d6951a348f"
-  integrity sha1-KRVliWOPpO0SYgIDx6aY1pUaNI8=
+"@jscad/x3d-serializer@2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@jscad/x3d-serializer/-/x3d-serializer-2.4.2.tgz#2a9413fefba061c93acc4dd0c5996dd6b1afce22"
+  integrity sha512-tmNDZqy18wGoW5t0TvOZkX7b5slzdyqsKBw8s1V/JcjHWrLWhASPG7pVR1wqYsiLipC1IheTV972rYxPphl0uA==
   dependencies:
-    "@most/multicast" "^1.2.4"
-
-"@most/multicast@^1.2.4", "@most/multicast@^1.2.5":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@most/multicast/-/multicast-1.3.0.tgz#e01574840df634478ac3fabd164c6e830fb3b966"
-  integrity sha512-DWH8AShgp5bXn+auGzf5tzPxvpmEvQJd0CNsApOci1LDF4eAEcnw4HQOr2Jaa+L92NbDYFKBSXxll+i7r1ikvw==
-  dependencies:
-    "@most/prelude" "^1.4.0"
-
-"@most/prelude@^1.4.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@most/prelude/-/prelude-1.8.0.tgz#90814b9e92d538e2d1c6eb69c01dfe4e86b5c80e"
-  integrity sha512-t1CcURpZzfmBA6fEWwqmCqeNzWAj1w2WqEmCk/2yXMe/p8Ut000wFmVKMy8A1Rl9VVxZEZ5nBHd/pU0dR4bv/w==
+    "@jscad/array-utils" "2.1.4"
+    "@jscad/modeling" "2.10.0"
+    onml "1.3.0"
 
 "@types/node@^14.14.25":
   version "14.14.25"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.25.tgz#15967a7b577ff81383f9b888aa6705d43fbbae93"
   integrity sha512-EPpXLOVqDvisVxtlbvzfyqSsFeQxltFbluZNRndIb8tr9KiBnYNLzrc1N3pyKUCww2RNrfHDViqDWWE1LCJQtQ==
 
-define-properties@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
-  integrity sha512-3MqfYKj2lLzdMSf8ZIZE/V+Zuy+BgD6f164e8K2w7dgnpKArBDerGYpM46IYYcjnkdPNMjPk9A6VFB8+3SKlXQ==
-  dependencies:
-    object-keys "^1.0.12"
+fflate@0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.7.3.tgz#288b034ff0e9c380eaa2feff48c787b8371b7fa5"
+  integrity sha512-0Zz1jOzJWERhyhsimS54VTqOteCNwRtIlh8isdL0AXLo0g7xNTfTL7oWrkmCnPhZGocKIkWHBistBrrpoNH3aw==
 
-es2015-i18n-tag@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/es2015-i18n-tag/-/es2015-i18n-tag-1.6.1.tgz#76c782a083c188ae761774c54d1a56029784a458"
-  integrity sha512-MYoh9p+JTkgnzBh0MEBON6xUyzdmwT6wzsmmFJvZujGSXiI2kM+3XvFl6+AcIO2eeL6VWgtX9szSiDTMwDxyYA==
-
-globalthis@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/globalthis/-/globalthis-1.0.2.tgz#2a235d34f4d8036219f7e34929b5de9e18166b8b"
-  integrity sha512-ZQnSFO1la8P7auIOQECnm0sSuoMeaSq0EEdXMBFF2QJO4uNcwbyhSgG3MruWNbFTqCLmxVwGOl7LZ9kASvHdeQ==
-  dependencies:
-    define-properties "^1.1.3"
-
-is-electron@2.2.0:
+json5@2.2.0:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/is-electron/-/is-electron-2.2.0.tgz#8943084f09e8b731b3a7a0298a7b5d56f6b7eef0"
-  integrity sha512-SpMppC2XR3YdxSzczXReBjqs2zGscWQpBIKqwXYBFic0ERaxNVgwLCHwOLZeESfdJQjX0RDvrJ1lBXX2ij+G1Q==
-
-morphdom@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/morphdom/-/morphdom-2.6.1.tgz#e868e24f989fa3183004b159aed643e628b4306e"
-  integrity sha512-Y8YRbAEP3eKykroIBWrjcfMw7mmwJfjhqdpSvoqinu8Y702nAwikpXcNFDiIkyvfCLxLM9Wu95RZqo4a9jFBaA==
-
-most-proxy@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/most-proxy/-/most-proxy-3.3.0.tgz#ae36ce38c4889cd41b6784ce4606df54a2fbe9e8"
-  integrity sha1-rjbOOMSInNQbZ4TORgbfVKL76eg=
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
   dependencies:
-    "@most/multicast" "^1.2.4"
-    most "^1.1.0"
+    minimist "^1.2.5"
 
-most@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/most/-/most-1.8.0.tgz#02ff0eff64618496c946cac7b828ac4a99af652c"
-  integrity sha512-V49VlfnnGBVSIcHVeW6jViOwsPwSdnw8qv2BQ97TCfJMA07Yq5BkjUnEPmDZ0Kqm6crTBlgmdnH+jO0qVJMXfw==
-  dependencies:
-    "@most/multicast" "^1.2.5"
-    "@most/prelude" "^1.4.0"
-    symbol-observable "^1.0.2"
-
-most@^1.1.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/most/-/most-1.9.0.tgz#a689b1191a67c25776068b00cf3446e429752743"
-  integrity sha512-M7yHMcMGaclzEL6eg8Yh8PlAsaWfL/oSThF4+ZuWKM5CKXcbzmLh+qESwgZFzMKHJ+iVJwb28yFvDEOobI653w==
-  dependencies:
-    "@most/multicast" "^1.2.5"
-    "@most/prelude" "^1.4.0"
-    globalthis "^1.0.1"
-    symbol-observable "^2.0.3"
-
-object-hash@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-2.0.3.tgz#d12db044e03cd2ca3d77c0570d87225b02e1e6ea"
-  integrity sha512-JPKn0GMu+Fa3zt3Bmr66JhokJU5BaNBIh4ZeTlaCBzrBsOeXzwcKKAK1tbLiPKgvwmPXsDvvLHoWh5Bm7ofIYg==
-
-object-keys@^1.0.12:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
-  integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+minimist@^1.2.5:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 onml@1.2.0:
   version "1.2.0"
@@ -267,27 +214,31 @@ onml@1.2.0:
   dependencies:
     sax "^1.2.1"
 
-sax@1.2.4, sax@^1.2.1:
+onml@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/onml/-/onml-1.3.0.tgz#db0ad8fa7468ebf33326fe9cc5d287bf797125b5"
+  integrity sha512-RhGUsC6Im2A5vAdIvxE3auRKTqrqUZQl/AYLn8+9lM3SO4da5bwhcI5TcM+hfQxNCSLLOVErsl9p0ZPjKKmz+g==
+  dependencies:
+    sax "^1.2.1"
+
+sax@^1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+
+saxes@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/saxes/-/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
+  integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
+  dependencies:
+    xmlchars "^2.2.0"
 
 strip-bom@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
   integrity sha512-3xurFv5tEgii33Zi8Jtp55wEIILR9eh34FAW00PZf+JnSsTmV/ioewSgQl97JHvgjoRGwPShsWm+IdrxB35d0w==
 
-symbol-observable@^1.0.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
-  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
-
-symbol-observable@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-2.0.3.tgz#5b521d3d07a43c351055fa43b8355b62d33fd16a"
-  integrity sha512-sQV7phh2WCYAn81oAkakC5qjq2Ml0g8ozqz03wOGnx9dDlG1de6yrF+0RAzSJD8fPUow3PTSMf2SAbOGxb93BA==
-
-webworkify@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/webworkify/-/webworkify-1.5.0.tgz#734ad87a774de6ebdd546e1d3e027da5b8f4a42c"
-  integrity sha512-AMcUeyXAhbACL8S2hqqdqOLqvJ8ylmIbNwUIqQujRSouf4+eUFaXbG6F1Rbu+srlJMmxQWsiU7mOJi0nMBfM1g==
+xmlchars@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
+  integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
